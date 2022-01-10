@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Smart Snake</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      html {
+        padding: 0;
+        margin: 0;
+      }
+
+      body,
+      html {
+        height: 100vh;
+      }
+      .snake-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .snake-container div {
+        padding-top: 1rem;
+        font-size: 21px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="snake-container">
+        <canvas id="canvas" width="800" height="800"></canvas>
+        <div>Smart Snake using A* Search by Armin Salihović</div>
+        <div>Refresh the page to play again.</div>
+      </div>
+    </div>
+    <script src="js/snake.js" type="module"></script>
+  </body>
+</html>
