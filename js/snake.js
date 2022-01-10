@@ -9,9 +9,7 @@ const canvasSize = 800;
 const size = 25;
 
 const block = Math.floor(canvasSize / size);
-console.log(block);
 
-console.log(block);
 let isGameOver = false;
 
 const grid = createGrid(size);
